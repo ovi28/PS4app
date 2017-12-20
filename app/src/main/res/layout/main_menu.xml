@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/circle_my_profile"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="openTrohpies"
+        android:src="@drawable/circle"
+        app:layout_constraintBottom_toTopOf="@+id/tv_my_profile"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_v" />
+
+    <ImageView
+        android:id="@+id/icon_my_profile"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="35dp"
+        android:src="@drawable/ic_home_black_24dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_my_profile"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_v" />
+
+    <TextView
+        android:id="@+id/tv_my_profile"
+        android:layout_width="77dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="35dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/my_profile"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/circle_games"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_v" />
+
+    <ImageView
+        android:id="@+id/circle_ps_plus"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="20dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="openTrohpies"
+        android:src="@drawable/circle"
+        app:layout_constraintBottom_toTopOf="@+id/tv_ps_plus"
+        app:layout_constraintStart_toStartOf="@+id/guideline_v" />
+
+    <ImageView
+        android:id="@+id/icon_ps_plus"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginStart="35dp"
+        android:src="@drawable/ic_home_black_24dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_ps_plus"
+        app:layout_constraintStart_toStartOf="@+id/guideline_v" />
+
+    <TextView
+        android:id="@+id/tv_ps_plus"
+        android:layout_width="77dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="35dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/ps_plus"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/circle_trophies"
+        app:layout_constraintStart_toStartOf="@+id/guideline_v" />
+
+    <ImageView
+        android:id="@+id/circle_games"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="openTrohpies"
+        android:src="@drawable/circle"
+        app:layout_constraintBottom_toTopOf="@+id/tv_games"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_v" />
+
+    <ImageView
+        android:id="@+id/icon_games"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="35dp"
+        android:src="@drawable/ic_home_black_24dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_games"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_v" />
+
+    <TextView
+        android:id="@+id/tv_games"
+        android:layout_width="75dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/games"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_v"
+        app:layout_constraintTop_toTopOf="@+id/guideline_h" />
+
+    <ImageView
+        android:id="@+id/circle_trophies"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="20dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="openTrohpies"
+        android:src="@drawable/circle"
+        app:layout_constraintBottom_toTopOf="@+id/tv_trophies"
+        app:layout_constraintStart_toStartOf="@+id/guideline_v" />
+
+    <ImageView
+        android:id="@+id/icon_trophies"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginStart="35dp"
+        android:src="@drawable/ic_home_black_24dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_trophies"
+        app:layout_constraintStart_toStartOf="@+id/guideline_v" />
+
+    <TextView
+        android:id="@+id/tv_trophies"
+        android:layout_width="77dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/trophies"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="@+id/guideline_v"
+        app:layout_constraintTop_toTopOf="@+id/guideline_h" />
+
+    <ImageView
+        android:id="@+id/circle_support"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="35dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="openTrohpies"
+        android:src="@drawable/circle"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_v"
+        app:layout_constraintTop_toBottomOf="@+id/tv_games" />
+
+    <ImageView
+        android:id="@+id/icon_support"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="35dp"
+        android:src="@drawable/ic_home_black_24dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_support"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_v" />
+
+    <TextView
+        android:id="@+id/tv_support"
+        android:layout_width="75dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/support"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_v"
+        app:layout_constraintTop_toBottomOf="@+id/circle_support" />
+
+    <ImageView
+        android:id="@+id/circle_guides"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="35dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="openTrohpies"
+        android:src="@drawable/circle"
+        app:layout_constraintStart_toStartOf="@+id/guideline_v"
+        app:layout_constraintTop_toBottomOf="@+id/tv_trophies" />
+
+    <ImageView
+        android:id="@+id/icon_guides"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginStart="35dp"
+        android:src="@drawable/ic_home_black_24dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_guides"
+        app:layout_constraintStart_toStartOf="@+id/guideline_v" />
+
+    <TextView
+        android:id="@+id/tv_guides"
+        android:layout_width="77dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/guides"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="@+id/guideline_v"
+        app:layout_constraintTop_toBottomOf="@+id/circle_guides" />
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_v"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4" />
+
+</android.support.constraint.ConstraintLayout>

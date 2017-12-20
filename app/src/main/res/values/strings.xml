@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PS4 app</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="my_profile">My profile</string>
+    <string name="ps_plus">PS Plus</string>
+    <string name="games">Games</string>
+    <string name="trophies">Trophies</string>
+    <string name="support">Support</string>
+    <string name="guides">Guides</string>
+</resources>
